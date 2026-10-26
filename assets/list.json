@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "listId": "list_ee9136da8002",
+  "list": {
+    "id": "list_ee9136da8002",
+    "name": "review_queue",
+    "description": "Documents requiring human confirmation — ambiguous classifications or sensitive content flagged by the file ranger",
+    "language": "en",
+    "collectionId": "coll_ce8530dbabe7",
+    "columns": [
+      {
+        "key": "doc_id",
+        "label": "Document ID",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "client_name",
+        "label": "Client Name",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "proposed_type",
+        "label": "Proposed Type",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "proposed_client",
+        "label": "Proposed Client",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "date_received",
+        "label": "Date Received",
+        "type": "date",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "email_subject",
+        "label": "Email Subject",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "sender",
+        "label": "Sender",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "filename",
+        "label": "Filename",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "review_reason",
+        "label": "Review Reason",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "filing_status",
+        "label": "Filing Status",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "run_id",
+        "label": "Run ID",
+        "type": "text",
+        "required": null,
+        "options": null
+      }
+    ],
+    "pipelineId": null,
+    "child": null,
+    "pageId": "bd4f9535-2b3a-4195-8257-9a20e5464b6a"
+  },
+  "commitMessage": "Initial migration from list editor"
+}
